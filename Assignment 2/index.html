@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>My Garage</title>
+	<link rel="stylesheet" href="./style.css">
+	<script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+	<header><h1>My Garage</h1> </header>
+	<div id="navi" style="margin-bottom: -80px;">
+		<button class="nav" onclick="home()">Home</button>
+		<button class="nav" onclick="Honda()">Honda</button>
+		<button class="nav" onclick="Suzuki()">Suzuki</button>
+		<button class="nav" onclick="Yamaha()">Yamaha</button>
+		<button class="nav" onclick="KTM()">KTM</button>
+		<button class="nav" onclick="RoalEnfield()">Roal Enfield</button>
+		<label for="input" id="search" style="font-size: 20px;margin-left:300px;">SEARCH</label>
+		<input onkeyup="fun()" type="text" id="input" style="padding: 5px;border-radius: 10px; padding-top:10px; background-color: aquamarine;"}/>
+	</div>
+	<div>
+		<p id="root"></p>
+		<div id="Honda">
+			<div class="Hondabike" id="Honda-CB150R">
+				<img src=./pics/Honda-CB150R.jpg></img>
+				 <a>Honda-CB150R</a>
+			</div>
+			<div class="Hondabike" id="Honda-CBR500">
+				<img src=./pics/Honda-CBR500.jpg></img>
+				<a>Honda-CBR500</a>
+			</div>
+			<div class="Hondabike" id="Honda-Activa-150">
+				<img src=./pics/Honda-Activa-150.webp></img>
+				<a>Honda-Activa-150</a>
+			</div>
+			<div class="Hondabike" id="Honda-Gold-wing">
+				<img src=./pics/Honda-Gold-wing.jpg></img>
+				<a>Honda-Gold-wing</a>
+			</div>
+			<div class="Hondabike" id="Honda-Navi">
+				<img src=./pics/Honda-Navi.png></img>
+				<a>Honda-Navi</a>
+			</div>
+			<div class="Hondabike" id="Honda-Rebel-300">
+				<img src=./pics/Honda-Rebel-300.jpg></img>
+				<a>Honda-Rebel-300</a>
+			</div>
+			<div class="Hondabike" id="Honda-Unicorn">
+				<img src=./pics/Honda-Unicorn.jpg></img>
+				<a>Honda-Unicorn</a>
+			</div>
+		</div>
+		<div id="Suzuki">
+			<div class="Suzukibike" id="Suzuki-Access-125">
+				<img src=./pics/Suzuki-Access-125.jpg></img>
+				<a>Suzuki-Access-125</a>
+			</div>
+			<div class="Suzukibike" id="Suzuki-gixxer-sf">
+				<img src=./pics/suzuki-gixxer-sf.jpg></img>
+				<a>Suzuki-gixxer-sf</a>
+			</div>
+			<div class="Suzukibike" id="Suzuki-Burgman">
+				<img src=./pics/Suzuki-Burgman.webp></img>
+				<a>Suzuki-Burgman</a>
+			</div>
+			<div class="Suzukibike" id="Suzuki-GS-150">
+				<img src=./pics/Suzuki-GS-150R.jpg></img>
+				<a>Suzuki-GS-150</a>
+			</div>
+			<div class="Suzukibike" id="Suzuki-Hayabusa">
+				<img src=./pics/Suzuki-Hayabusa.png></img>
+				<a>Suzuki-Hayabusa</a>
+			</div>
+			<div class="Suzukibike" id="Suzuki-Intruder">
+				<img src=./pics/Suzuki-Intruder.webp></img>
+				<a>Suzuki-Intruder</a>
+			</div>
+			<div class="Suzukibike" id="Suzuki-V-Strom">
+				<img src=./pics/Suzuki-V-Strom.jpg></img>
+				<a>Suzuki-V-Strom</a>
+			</div>
+		</div>
+		<div id="Yamaha">
+			<div class="Yamahabike" id="yamaha-RayZ">
+				<img src=./pics/yamaha-RayZ.jpg></img>
+				<a>yamaha-RayZ</a>
+			</div>
+			<div class="Yamahabike" id="yamaha-XSR-155">
+				<img src=./pics/yamaha-XSR-155.jpg></img>
+				<a>yamaha-XSR-155</a>
+			</div>
+			<div class="Yamahabike" id="Yamaha-Fascino">
+				<img src=./pics/Yamaha-Fascino.jpg></img>
+				<a>Yamaha-Fascino</a>
+			</div>
+			<div class="Yamahabike" id="Yamaha-FZs-Fi">
+				<img src=./pics/Yamaha-FZs-Fi.jpg></img>
+				<a>Yamaha-FZs-Fi</a>
+			</div>
+			<div class="Yamahabike" id="Yamaha-NMax-155">
+				<img src=./pics/Yamaha-NMax-155.jpg></img>
+				<a>Yamaha-NMax-155</a>
+			</div>
+			<div class="Yamahabike" id="Yamaha-MT-15">
+				<img src=./pics/Yamaha-MT-15.jpg></img>
+				<a>Yamaha-MT-15</a>
+			</div>
+		</div>
+		<div id="KTM">
+			<div class="KTMbike" id="KTM-390-Adventure">
+				<img src=./pics/KTM-390-Adventure.jpg></img>
+				<a>KTM-390-Adventure</a>
+			</div>
+			<div class="KTMbike" id="KTM-450-SX">
+				<img src=./pics/KTM-450-SX.jpg></img>
+				<a>KTM-450-SX</a>
+			</div>
+			<div class="KTMbike" id="KTM-690-Enduro">
+				<img src=./pics/KTM-690-Enduro.jpg></img>
+				<a>KTM-690-Enduro</a>
+			</div>
+			<div class="KTMbike" id="KTM-Duke-390">
+				<img src=./pics/KTM-Duke-390.jpg></img>
+				<a>KTM-Duke-390</a>
+			</div>
+			<div class="KTMbike" id="KTM-FREERIDE-250">
+				<img src=./pics/KTM-FREERIDE-250.jpg></img>
+				<a>KTM-FREERIDE-250</a>
+			</div>
+			<div class="KTMbike" id="KTM-RC">
+				<img src=./pics/KTM-RC.jpg></img>
+				<a>KTM-RC-390</a>
+			</div>
+		</div>
+		<div id="RoalEnfield">
+			<div class="RoalEnfieldbike" id="RE-Continental-GT650">
+				<img src=./pics/Roal-Enfield-Continental-GT650.png></img>
+				<a>RE-Continental-GT650</a>
+			</div>
+			<div class="RoalEnfieldbike" id="RE-Thunderbird-350">
+				<img src=./pics/Roal-Enfield-Thunderbird-350cc.jpg></img>
+				<a>RE-Thunderbird-350</a>
+			</div>
+			<div class="RoalEnfieldbike" id="RE-classic350">
+				<img src=./pics/Roal-Enfield-classic350.jpg></img>
+				<a>RE-classic350</a>
+			</div>
+			<div class="RoalEnfieldbike" id="RE-Himalayan">
+				<img src=./pics/Roal-Enfield-Himalayan.jpg></img>
+				<a>RE-Himalayan</a>
+			</div>
+			<div class="RoalEnfieldbike" id="RE-Bullet-Electra">
+				<img src=./pics/Royal-Enfield-Bullet-Electra.jpg></img>
+				<a>RE-Bullet-Electra</a>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

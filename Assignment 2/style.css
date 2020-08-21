@@ -1,0 +1,67 @@
+h1{
+    
+    text-align: center;
+    color: rgb(223, 194, 151);
+    font-style: oblique;
+}
+header{
+
+    background-color: rgb(40, 53, 37);
+    padding:10px ;
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-right: -10px;
+}
+body{
+    background-color: cadetblue;
+    background-image: url(./pics/depositphotos_100853628-stock-illustration-repair-tools-background-in-blue.jpg);
+}
+button{
+    margin:20px;
+    border-radius: 10px;
+    color: black;
+    background-color: lightseagreen;
+    font-size: 20px;
+    font-style: bold;
+    padding:8px;
+    transform-style: preserve-3d;
+    border-style: solid;
+    opacity: 0.8;
+}
+
+div.Hondabike,div.Suzukibike, div.Yamahabike, div.KTMbike, div.RoalEnfieldbike{
+    padding:150px;
+    display: inline-block;
+    box-shadow: gray;
+    border-radius: 12px;
+    margin-top:10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border: ridge;
+    border-color:gray;
+    width: 45px;
+    height: 45px;
+    
+    background-color:rgba(0, 0, 0, 0.678);
+}
+
+img{
+    display: inline-block;
+    width: 745%;
+    height: 680%;
+    margin-top: -145px;
+    margin-left: -145px;
+}
+a{
+    float: left;
+    font-style: italic;
+    color: cornsilk;
+    margin-right: -75px;
+    margin-left: -15px;
+    padding-top: 3px;
+    
+}
+div{
+    display: inline-block;
+}
